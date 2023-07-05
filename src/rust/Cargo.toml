@@ -1,0 +1,14 @@
+[package]
+name = 'wkrsgeo'
+version = '0.1.0'
+edition = '2021'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'wkrsgeo'
+
+[dependencies]
+extendr-api = '0.4.0'
+geo-types = "0.7.10"
+sfconversions = { git = "https://github.com/JosiahParry/sfconversions"}
+wk-rs = {path = "../../../wk-rs"}
